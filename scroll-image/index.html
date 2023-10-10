@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll Image</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+           <div class="image">
+            <img src="./images/xitoydevori.jpg" alt="This is image">
+           </div>
+           <div class="image">
+            <img src="./images/xitoykochalari.jpg" alt="This is image">
+           </div>
+           <div class="image">
+            <img src="./images/xitoyoqshomi.jpg" alt="This is image">
+           </div>
+           <div class="image">
+            <img src="./images/xitoyormoni.jpg" alt="This is image">
+           </div>
+           <div class="image">
+            <img src="./images/xitoytoglari.jpg" alt="This is image">
+           </div>
+        <div class="btn">
+           <i onclick="nexting(-1)" id="prev" class=" fa-solid fa-chevron-left"></i>
+           <i onclick="nexting(1)" id="next" class=" fa-solid fa-chevron-right"></i>
+        </div>
+         <div class="dots">
+            <span class="dot" onclick="currentSlide(1)" ></span>
+            <span class="dot" onclick="currentSlide(2)" ></span>
+            <span class="dot" onclick="currentSlide(3)" ></span>
+            <span class="dot" onclick="currentSlide(4)" ></span>
+            <span class="dot" onclick="currentSlide(5)" ></span>
+         </div>
+    </div>
+</body>
+<script src="./main.js"></script>
+
+</html>
